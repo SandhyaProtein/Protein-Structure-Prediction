@@ -1,0 +1,19 @@
+﻿Build started 4/12/2017 9:59:41 AM.
+     1>Project "C:\Users\M71E\Documents\Visual Studio 2012\Projectsold\parallel\parallel\parallel.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v4.2\include" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D USE_STANDARD_FILE_FUNCTIONS /D _CRT_SECURE_NO_WARNINGS /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\parallel.pch" /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt parallel.cpp
+         parallel.cpp
+     1>c:\users\m71e\documents\visual studio 2012\projectsold\parallel\parallel\parallel.cpp(377): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\m71e\documents\visual studio 2012\projectsold\parallel\parallel\parallel.cpp(618): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\m71e\documents\visual studio 2012\projectsold\parallel\parallel\parallel.cpp(489): warning C4101: 'time_start' : unreferenced local variable
+     1>c:\users\m71e\documents\visual studio 2012\projectsold\parallel\parallel\parallel.cpp(491): warning C4101: 'total_time' : unreferenced local variable
+     1>c:\users\m71e\documents\visual studio 2012\projectsold\parallel\parallel\parallel.cpp(490): warning C4101: 'time_stop' : unreferenced local variable
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\M71E\Documents\Visual Studio 2012\Projectsold\parallel\Debug\parallel.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v4.2\lib\Win32" OpenCL.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\M71E\Documents\Visual Studio 2012\Projectsold\parallel\Debug\parallel.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\M71E\Documents\Visual Studio 2012\Projectsold\parallel\Debug\parallel.lib" /MACHINE:X86 Debug\parallel.obj
+         Debug\stdafx.obj
+         parallel.vcxproj -> C:\Users\M71E\Documents\Visual Studio 2012\Projectsold\parallel\Debug\parallel.exe
+     1>Done Building Project "C:\Users\M71E\Documents\Visual Studio 2012\Projectsold\parallel\parallel\parallel.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.09
